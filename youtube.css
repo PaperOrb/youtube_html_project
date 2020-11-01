@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+#fixed-div {
+  position: fixed;
+  background-color: cornflowerblue;
+  height: 8%;
+  width: 100%;
+}
+
+.videos {
+  position: absolute;
+  top: 8%;
+  left: 0;
+}
+
+#video-col {
+  background-color: darkgreen;
+  height: 100%;
+  width: 80%;
+  float: left;
+}
+
+#related-col {
+  background-color: coral;
+  left: 80%;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+img {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  z-index: 100;
+}
