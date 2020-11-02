@@ -1,5 +1,9 @@
-* {
+/* add and position different colored divs for search box, home menu, video, video details, and recommendations*/
+div {
+  position: absolute;
   margin: 0;
+  left: 0;
+  top: 0;
 }
 
 #fixed-div {
@@ -7,6 +11,8 @@
   background-color: cornflowerblue;
   height: 8%;
   width: 100%;
+  z-index: 99;
+  overflow: visible;
 }
 
 .videos {
@@ -30,9 +36,24 @@
   float: left;
 }
 
-img {
+#fixed-div > img {
   position: absolute;
-  height: 10%;
+  height: 100%;
   width: 10%;
+  left: 1px;
   z-index: 100;
+}
+
+#create_icon {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  top: 20%;
+  left: 75%;
+  z-index: 102;
+}
+
+.button {
+  fill: rgb(83, 83, 83);
 }
