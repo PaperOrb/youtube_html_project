@@ -44,16 +44,24 @@ div {
   z-index: 100;
 }
 
-#create_icon {
+.buttons {
   display: inline-block;
-  position: relative;
-  height: 300px;
-  width: 300px;
-  top: 20%;
-  left: 75%;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  fill: rgb(83, 83, 83);
   z-index: 102;
+  border: 3px solid red;
 }
 
-.button {
-  fill: rgb(83, 83, 83);
+#youtube_logo {
+  display: inline-block;
+  position: absolute;
+  z-index: 105;
+  border: 3px solid red;
 }
+
+#create_button {
+  left: 75%;
+}
+
