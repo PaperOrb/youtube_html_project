@@ -1,4 +1,3 @@
-/* add and position different colored divs for search box, home menu, video, video details, and recommendations*/
 div {
   position: absolute;
   margin: 0;
@@ -65,3 +64,20 @@ div {
   left: 75%;
 }
 
+#search {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  border: solid red;
+}
+
+#search_btn {
+  height: 60%;
+}
+
+#search_bar {
+  display: inline;
+  width: 480px;
+  height: 60%;
+  font-size: 200%;
+}
