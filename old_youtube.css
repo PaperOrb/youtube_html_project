@@ -1,0 +1,87 @@
+#fixed-div {
+  position: fixed;
+  background-color: cornflowerblue;
+  margin: 0;
+  left: 0;
+  top: 0;
+  height: 8%;
+  width: 100%;
+  z-index: 99;
+}
+
+.videos {
+  position: absolute;
+  top: 8%;
+  left: 0;
+}
+
+#video-col {
+  background-color: darkgreen;
+  height: 100%;
+  width: 80%;
+  float: left;
+}
+
+#related-col {
+  background-color: coral;
+  left: 80%;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+#fixed-div * {
+  display: inline-block;
+}
+
+.buttons {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  fill: rgb(83, 83, 83);
+  z-index: 102;
+}
+
+#youtube_logo {
+  position: relative;
+  display: inline;
+  height: 50%;
+  width: 10%;
+  top: 25%;
+  left: 100px;
+  z-index: 105;
+}
+
+#create_button {
+  left: 75%;
+  width: 30%;
+}
+
+#search {
+  position: absolute;
+  height: 50%;
+  width: 35%;
+  top: 25%;
+  left: 30%;
+}
+
+#search_bar {
+  border-radius: 5px;
+  width: 70%;
+  height: 85%;
+  font-size: 200%;
+}
+
+#search_btn {
+  position: relative;
+  border-radius: 5px;
+  height: 95%;
+  width: 10%;
+  left: -7px;
+  top: -4px;
+}
+
+#hamburger {
+  left: 50px;
+  top: 25%;
+}
